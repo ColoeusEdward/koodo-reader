@@ -1,5 +1,5 @@
 import BookModel from "../../model/Book";
-import { RouteComponentProps } from "react-router";
+import { RouteComponentProps } from "react-router-dom";
 
 export interface BookCoverProps extends RouteComponentProps<any> {
   book: BookModel;
@@ -8,7 +8,7 @@ export interface BookCoverProps extends RouteComponentProps<any> {
   isCollapsed: boolean;
   dragItem: string;
   mode: string;
-
+  
   isSelectBook: boolean;
   isSelected: boolean;
   selectedBooks: string[];

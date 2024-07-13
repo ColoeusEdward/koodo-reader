@@ -1,7 +1,7 @@
 import BookModel from "../../../model/Book";
 import BookmarkModel from "../../../model/Bookmark";
 import NoteModel from "../../../model/Note";
-import { RouteComponentProps } from "react-router";
+import { RouteComponentProps } from "react-router-dom";
 
 export interface CardListProps extends RouteComponentProps<any> {
   currentBook: BookModel;

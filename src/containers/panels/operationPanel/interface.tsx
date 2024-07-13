@@ -2,7 +2,7 @@ import BookModel from "../../../model/Book";
 import NoteModel from "../../../model/Note";
 import HtmlBookModel from "../../../model/HtmlBook";
 import BookmarkModel from "../../../model/Bookmark";
-import { RouteComponentProps } from "react-router";
+import { RouteComponentProps } from "react-router-dom";
 
 export interface OperationPanelProps extends RouteComponentProps<any> {
   currentBook: BookModel;

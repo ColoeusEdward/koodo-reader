@@ -1,4 +1,4 @@
-import { RouteComponentProps } from "react-router";
+import { RouteComponentProps } from "react-router-dom";
 
 export interface SidebarProps extends RouteComponentProps<any> {
   mode: string;
